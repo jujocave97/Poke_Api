@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+form {
+    margin-right: 20px;
+    align-items: center;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    border-color: black;
+    background-color: #f9f9f9;
+    width: 20%;
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.pokemon h2, .pokemon h3 {
+    margin: 5px 0;
+}
