@@ -1,0 +1,188 @@
+/* Aseguramos que body ocupe toda la pantalla */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://wallpapercave.com/wp/wp3636965.jpg'); /* Ruta de la imagen */
+  background-size: cover; /* Escala la imagen para cubrir el contenedor */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */ /* Color de fondo opcional para el cuerpo */
+}
+
+/* Contenedor principal con imagen de fondo */
+.main_inicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  padding: 20px;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+}
+
+/* Estilo para el formulario */
+.formulario_inicio {
+  display: flex;
+  flex-direction: column; /* Pone los elementos en columna */
+  gap: 10px; /* Espaciado entre los elementos */
+  width: 100%; /* Ocupar todo el ancho del contenedor */
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+  padding: 15px; /* Espaciado interno */
+  border-radius: 8px; /* Esquinas redondeadas */
+}
+
+/* Inputs y botones estilo base */
+.formulario_inicio input,
+.formulario_inicio button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Estilo del botón */
+.formulario_inicio button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.formulario_inicio button:hover {
+  background-color: #0056b3;
+}
+
+
+
+/* pokeapi.php
+*/
+.buscador {
+  width: 40%; /* Ocupa el 40% del ancho */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5); /* 50% de opacidad */
+  padding: 20px;
+  border-radius: 8px;
+
+}
+
+.buscador h2 {
+  margin-bottom: 15px;
+}
+
+.buscador form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80%; /* Reduce el ancho del formulario */
+}
+
+.buscador input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.buscador input[type="submit"] {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buscador input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Contenedor de la información del Pokémon */
+.contenedor {
+  width: 25%; /* Ocupa el 50% del ancho */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 20px; /* Espaciado entre las secciones */
+  background-color: rgba(255, 255, 255, 0.5); /* 50% de opacidad */
+
+}
+
+.imagen {
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen img {
+  border-radius: 50%; /* Hace la imagen circular */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.pokemon {
+  margin-top: 10px;
+}
+
+.pokemon h2, .pokemon h3 {
+  margin-bottom: 5px;
+}
+
+
+/* registro */
+
+.form_registro {
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco translúcido */
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra para profundidad */
+  width: 100%;
+  max-width: 400px;
+}
+
+.form_registro label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form_registro input[type="text"],
+.form_registro input[type="email"],
+.form_registro input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.form_registro input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form_registro input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+

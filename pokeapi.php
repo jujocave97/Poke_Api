@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokémon API</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <main>
+    
         <div class="buscador">
-            <h2>Introduce el nombre de un Pokemon</h2>
+            <h2>Introduce el nombre o ID de un Pokemon</h2>
             <form action="pokeapi.php" method="POST">
                 <input type="text" name="pokemon">
                 <input type="submit" value="Buscar">
@@ -44,6 +44,5 @@
                     </div>";
             }
         ?>
-    </main>
 </body>
 </html>
