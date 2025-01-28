@@ -17,7 +17,7 @@
         </div>
         <?php // me quede en planta
             $color_type = [
-                "normal" => "#A0A2A0","poison" => "purple","psychic" => "pink","grass" => "green","ground" => "brown","ice" => "#3DD9FF","fire" => "#E72324","rock" => "brown","dragon" => "#4F60E2","water" => "	#2481F0","bug" => "#92A212","dark" => "black","fighting" => "#FF8100","ghost" => "#713F71","steel" => "#60A2B9","flying" => "lightblue","electric" => "#FAC100","fairy" => "#EF71F0"
+                "normal" => "#A0A2A0","poison" => "#923FCC","psychic" => "#EF3F7A","grass" => "#3DA224","ground" => "brown","ice" => "#3DD9FF","fire" => "#E72324","rock" => "#B0AB82","dragon" => "#4F60E2","water" => "#2481F0","bug" => "#92A212","dark" => "black","fighting" => "#FF8100","ghost" => "#713F71","steel" => "#60A2B9","flying" => "	#82BAF0","electric" => "#FAC100","fairy" => "#EF71F0"
             ];
             $url = "https://pokeapi.co/api/v2/pokemon/";
             if ( isset( $_POST["pokemon"] ) ) {
