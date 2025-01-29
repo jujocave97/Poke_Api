@@ -11,7 +11,8 @@
             foreach($events as $event){
                 if($event["email"] == $email){
                     $registro_incorrecto = true;
-                    require_once "registro.php";
+                    $error_class = isset($registro_incorrecto) && $registro_incorrecto ? 'error_input' : ''; // esto es para que los bordes sean rojos. No se pq no me funciona ...
+                    require_once "registro.php";   
                     die();
                 }
             }
